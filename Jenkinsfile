@@ -6,7 +6,7 @@ pipeline {
    }
 
    stages {
-	stage("Checkout') {
+	stage('Checkout') {
 	   step {
 		git branch: 'main', utl: https://github.com/javed1701/Jenkins__Docker_github.git
 	   }
